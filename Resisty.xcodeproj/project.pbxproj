@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65B38D9718969CD800C42093 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B38D9618969CD800C42093 /* Foundation.framework */; };
+		65B38D9918969CD800C42093 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B38D9818969CD800C42093 /* CoreGraphics.framework */; };
+		65B38D9B18969CD800C42093 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B38D9A18969CD800C42093 /* UIKit.framework */; };
+		65B38DA118969CD800C42093 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65B38D9F18969CD800C42093 /* InfoPlist.strings */; };
+		65B38DA318969CD800C42093 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B38DA218969CD800C42093 /* main.m */; };
+		65B38DA718969CD900C42093 /* DLTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B38DA618969CD900C42093 /* DLTAppDelegate.m */; };
+		65B38DAA18969CD900C42093 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65B38DA818969CD900C42093 /* Main.storyboard */; };
+		65B38DAD18969CD900C42093 /* DLTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B38DAC18969CD900C42093 /* DLTViewController.m */; };
+		65B38DAF18969CD900C42093 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65B38DAE18969CD900C42093 /* Images.xcassets */; };
+		65B38DB618969CD900C42093 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B38DB518969CD900C42093 /* XCTest.framework */; };
+		65B38DB718969CD900C42093 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B38D9618969CD800C42093 /* Foundation.framework */; };
+		65B38DB818969CD900C42093 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B38D9A18969CD800C42093 /* UIKit.framework */; };
+		65B38DC018969CD900C42093 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65B38DBE18969CD900C42093 /* InfoPlist.strings */; };
+		65B38DC218969CD900C42093 /* ResistyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B38DC118969CD900C42093 /* ResistyTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65B38DB918969CD900C42093 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65B38D8B18969CD800C42093 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65B38D9218969CD800C42093;
+			remoteInfo = Resisty;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		65B38D9318969CD800C42093 /* Resisty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Resisty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65B38D9618969CD800C42093 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		65B38D9818969CD800C42093 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		65B38D9A18969CD800C42093 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		65B38D9E18969CD800C42093 /* Resisty-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Resisty-Info.plist"; sourceTree = "<group>"; };
+		65B38DA018969CD800C42093 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		65B38DA218969CD800C42093 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		65B38DA418969CD800C42093 /* Resisty-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Resisty-Prefix.pch"; sourceTree = "<group>"; };
+		65B38DA518969CD800C42093 /* DLTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLTAppDelegate.h; sourceTree = "<group>"; };
+		65B38DA618969CD900C42093 /* DLTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLTAppDelegate.m; sourceTree = "<group>"; };
+		65B38DA918969CD900C42093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65B38DAB18969CD900C42093 /* DLTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLTViewController.h; sourceTree = "<group>"; };
+		65B38DAC18969CD900C42093 /* DLTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLTViewController.m; sourceTree = "<group>"; };
+		65B38DAE18969CD900C42093 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		65B38DB418969CD900C42093 /* ResistyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResistyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65B38DB518969CD900C42093 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		65B38DBD18969CD900C42093 /* ResistyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ResistyTests-Info.plist"; sourceTree = "<group>"; };
+		65B38DBF18969CD900C42093 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		65B38DC118969CD900C42093 /* ResistyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResistyTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65B38D9018969CD800C42093 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65B38D9918969CD800C42093 /* CoreGraphics.framework in Frameworks */,
+				65B38D9B18969CD800C42093 /* UIKit.framework in Frameworks */,
+				65B38D9718969CD800C42093 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65B38DB118969CD900C42093 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65B38DB618969CD900C42093 /* XCTest.framework in Frameworks */,
+				65B38DB818969CD900C42093 /* UIKit.framework in Frameworks */,
+				65B38DB718969CD900C42093 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65B38D8A18969CD800C42093 = {
+			isa = PBXGroup;
+			children = (
+				65B38D9C18969CD800C42093 /* Resisty */,
+				65B38DBB18969CD900C42093 /* ResistyTests */,
+				65B38D9518969CD800C42093 /* Frameworks */,
+				65B38D9418969CD800C42093 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65B38D9418969CD800C42093 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65B38D9318969CD800C42093 /* Resisty.app */,
+				65B38DB418969CD900C42093 /* ResistyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65B38D9518969CD800C42093 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65B38D9618969CD800C42093 /* Foundation.framework */,
+				65B38D9818969CD800C42093 /* CoreGraphics.framework */,
+				65B38D9A18969CD800C42093 /* UIKit.framework */,
+				65B38DB518969CD900C42093 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		65B38D9C18969CD800C42093 /* Resisty */ = {
+			isa = PBXGroup;
+			children = (
+				65B38DA518969CD800C42093 /* DLTAppDelegate.h */,
+				65B38DA618969CD900C42093 /* DLTAppDelegate.m */,
+				65B38DA818969CD900C42093 /* Main.storyboard */,
+				65B38DAB18969CD900C42093 /* DLTViewController.h */,
+				65B38DAC18969CD900C42093 /* DLTViewController.m */,
+				65B38DAE18969CD900C42093 /* Images.xcassets */,
+				65B38D9D18969CD800C42093 /* Supporting Files */,
+			);
+			path = Resisty;
+			sourceTree = "<group>";
+		};
+		65B38D9D18969CD800C42093 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65B38D9E18969CD800C42093 /* Resisty-Info.plist */,
+				65B38D9F18969CD800C42093 /* InfoPlist.strings */,
+				65B38DA218969CD800C42093 /* main.m */,
+				65B38DA418969CD800C42093 /* Resisty-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65B38DBB18969CD900C42093 /* ResistyTests */ = {
+			isa = PBXGroup;
+			children = (
+				65B38DC118969CD900C42093 /* ResistyTests.m */,
+				65B38DBC18969CD900C42093 /* Supporting Files */,
+			);
+			path = ResistyTests;
+			sourceTree = "<group>";
+		};
+		65B38DBC18969CD900C42093 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65B38DBD18969CD900C42093 /* ResistyTests-Info.plist */,
+				65B38DBE18969CD900C42093 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65B38D9218969CD800C42093 /* Resisty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65B38DC518969CD900C42093 /* Build configuration list for PBXNativeTarget "Resisty" */;
+			buildPhases = (
+				65B38D8F18969CD800C42093 /* Sources */,
+				65B38D9018969CD800C42093 /* Frameworks */,
+				65B38D9118969CD800C42093 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Resisty;
+			productName = Resisty;
+			productReference = 65B38D9318969CD800C42093 /* Resisty.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65B38DB318969CD900C42093 /* ResistyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65B38DC818969CD900C42093 /* Build configuration list for PBXNativeTarget "ResistyTests" */;
+			buildPhases = (
+				65B38DB018969CD900C42093 /* Sources */,
+				65B38DB118969CD900C42093 /* Frameworks */,
+				65B38DB218969CD900C42093 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65B38DBA18969CD900C42093 /* PBXTargetDependency */,
+			);
+			name = ResistyTests;
+			productName = ResistyTests;
+			productReference = 65B38DB418969CD900C42093 /* ResistyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65B38D8B18969CD800C42093 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DLT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Danielle Lancashire";
+				TargetAttributes = {
+					65B38DB318969CD900C42093 = {
+						TestTargetID = 65B38D9218969CD800C42093;
+					};
+				};
+			};
+			buildConfigurationList = 65B38D8E18969CD800C42093 /* Build configuration list for PBXProject "Resisty" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65B38D8A18969CD800C42093;
+			productRefGroup = 65B38D9418969CD800C42093 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65B38D9218969CD800C42093 /* Resisty */,
+				65B38DB318969CD900C42093 /* ResistyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65B38D9118969CD800C42093 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65B38DAF18969CD900C42093 /* Images.xcassets in Resources */,
+				65B38DA118969CD800C42093 /* InfoPlist.strings in Resources */,
+				65B38DAA18969CD900C42093 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65B38DB218969CD900C42093 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65B38DC018969CD900C42093 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65B38D8F18969CD800C42093 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65B38DAD18969CD900C42093 /* DLTViewController.m in Sources */,
+				65B38DA318969CD800C42093 /* main.m in Sources */,
+				65B38DA718969CD900C42093 /* DLTAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65B38DB018969CD900C42093 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65B38DC218969CD900C42093 /* ResistyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65B38DBA18969CD900C42093 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65B38D9218969CD800C42093 /* Resisty */;
+			targetProxy = 65B38DB918969CD900C42093 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		65B38D9F18969CD800C42093 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65B38DA018969CD800C42093 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		65B38DA818969CD900C42093 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65B38DA918969CD900C42093 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65B38DBE18969CD900C42093 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65B38DBF18969CD900C42093 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65B38DC318969CD900C42093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		65B38DC418969CD900C42093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65B38DC618969CD900C42093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Resisty/Resisty-Prefix.pch";
+				INFOPLIST_FILE = "Resisty/Resisty-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		65B38DC718969CD900C42093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Resisty/Resisty-Prefix.pch";
+				INFOPLIST_FILE = "Resisty/Resisty-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		65B38DC918969CD900C42093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Resisty.app/Resisty";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Resisty/Resisty-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ResistyTests/ResistyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		65B38DCA18969CD900C42093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Resisty.app/Resisty";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Resisty/Resisty-Prefix.pch";
+				INFOPLIST_FILE = "ResistyTests/ResistyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65B38D8E18969CD800C42093 /* Build configuration list for PBXProject "Resisty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65B38DC318969CD900C42093 /* Debug */,
+				65B38DC418969CD900C42093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65B38DC518969CD900C42093 /* Build configuration list for PBXNativeTarget "Resisty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65B38DC618969CD900C42093 /* Debug */,
+				65B38DC718969CD900C42093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		65B38DC818969CD900C42093 /* Build configuration list for PBXNativeTarget "ResistyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65B38DC918969CD900C42093 /* Debug */,
+				65B38DCA18969CD900C42093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65B38D8B18969CD800C42093 /* Project object */;
+}
