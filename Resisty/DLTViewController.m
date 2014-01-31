@@ -54,9 +54,4 @@
 	// ToDo: TableViewRow Selection
 }
 
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
-{
-	return YES;
-}
-
 @end

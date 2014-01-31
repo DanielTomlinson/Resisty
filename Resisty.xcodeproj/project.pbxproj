@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6508B226189C5A26004149AC /* DLTResistorBandTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6508B224189C5A26004149AC /* DLTResistorBandTableViewCell.m */; };
+		6508B227189C5A26004149AC /* DLTResistorBandTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6508B225189C5A26004149AC /* DLTResistorBandTableViewCell.xib */; };
 		65B38D9718969CD800C42093 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B38D9618969CD800C42093 /* Foundation.framework */; };
 		65B38D9918969CD800C42093 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B38D9818969CD800C42093 /* CoreGraphics.framework */; };
 		65B38D9B18969CD800C42093 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B38D9A18969CD800C42093 /* UIKit.framework */; };
@@ -34,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6508B223189C5A26004149AC /* DLTResistorBandTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLTResistorBandTableViewCell.h; sourceTree = "<group>"; };
+		6508B224189C5A26004149AC /* DLTResistorBandTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLTResistorBandTableViewCell.m; sourceTree = "<group>"; };
+		6508B225189C5A26004149AC /* DLTResistorBandTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DLTResistorBandTableViewCell.xib; sourceTree = "<group>"; };
 		65B38D9318969CD800C42093 /* Resisty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Resisty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65B38D9618969CD800C42093 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		65B38D9818969CD800C42093 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +122,9 @@
 				65B38DA818969CD900C42093 /* Main.storyboard */,
 				65B38DAB18969CD900C42093 /* DLTViewController.h */,
 				65B38DAC18969CD900C42093 /* DLTViewController.m */,
+				6508B223189C5A26004149AC /* DLTResistorBandTableViewCell.h */,
+				6508B224189C5A26004149AC /* DLTResistorBandTableViewCell.m */,
+				6508B225189C5A26004149AC /* DLTResistorBandTableViewCell.xib */,
 				65B38DAE18969CD900C42093 /* Images.xcassets */,
 				65B38D9D18969CD800C42093 /* Supporting Files */,
 			);
@@ -229,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6508B227189C5A26004149AC /* DLTResistorBandTableViewCell.xib in Resources */,
 				65B38DAF18969CD900C42093 /* Images.xcassets in Resources */,
 				65B38DA118969CD800C42093 /* InfoPlist.strings in Resources */,
 				65B38DAA18969CD900C42093 /* Main.storyboard in Resources */,
@@ -250,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6508B226189C5A26004149AC /* DLTResistorBandTableViewCell.m in Sources */,
 				65B38DAD18969CD900C42093 /* DLTViewController.m in Sources */,
 				65B38DA318969CD800C42093 /* main.m in Sources */,
 				65B38DA718969CD900C42093 /* DLTAppDelegate.m in Sources */,
@@ -461,6 +471,7 @@
 				65B38DC718969CD900C42093 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65B38DC818969CD900C42093 /* Build configuration list for PBXNativeTarget "ResistyTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +480,7 @@
 				65B38DCA18969CD900C42093 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
