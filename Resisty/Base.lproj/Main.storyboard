@@ -45,6 +45,10 @@
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="K5A-cr-gYj" secondAttribute="bottom" id="swa-fG-6e9"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="calculatedResistanceDisplayLabel" destination="VBm-W6-iAm" id="TOa-gf-daa"/>
+                        <outlet property="tableView" destination="K5A-cr-gYj" id="cpd-nC-2ZS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
