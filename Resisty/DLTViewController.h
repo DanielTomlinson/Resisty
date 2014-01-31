@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DLTViewController : UIViewController
+@interface DLTViewController : UIViewController<UITableViewDataSource, UITableViewDelegate>
 
 @end

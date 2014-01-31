@@ -20,11 +20,36 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+	
+	self.tableView.delegate = self;
+	self.tableView.dataSource = self;
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
 }
+
+#pragma mark - UITableViewDataSource Methods
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+	return 1;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView
+ numberOfRowsInSection:(NSInteger)section
+{
+	return 0;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView
+		 cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+	return [tableView dequeueReusableCellWithIdentifier:@"cell"];
+}
+
+#pragma mark - UITableViewDelegate Methods
+
 
 @end
