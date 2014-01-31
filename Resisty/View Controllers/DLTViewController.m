@@ -2,7 +2,7 @@
 //  DLTViewController.m
 //  Resisty
 //
-//  Created by  Danielle Lancashireon 27/01/2014.
+//  Created by Danielle Lancashire on 27/01/2014.
 //  Copyright (c) 2014 Danielle Lancashire. All rights reserved.
 //
 
